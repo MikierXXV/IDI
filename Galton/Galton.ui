@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Galton</class>
+ <widget class="QWidget" name="Galton">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Galton</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Bola</string>
+         </property>
+         <property name="shortcut">
+          <string>Alt+B</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="MyLabel" name="label">
+         <property name="text">
+          <string>-</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <spacer name="horizontalSpacer_11">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_2">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_13">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_3">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_12">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_4">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_6">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_7">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_5">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_8">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_8">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_11">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_9">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_15">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_10">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLabel" name="label_14">
+           <property name="text">
+            <string>-</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_7">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+           <property name="intValue" stdset="0">
+            <number>0</number>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber_2">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber_3">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber_4">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber_6">
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Reset</string>
+         </property>
+         <property name="shortcut">
+          <string>Alt+R</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Fixed</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>340</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="maximumSize">
+            <size>
+             <width>600</width>
+             <height>600</height>
+            </size>
+           </property>
+           <property name="baseSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Total boles:</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>10</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="MyLCDNumber" name="lcdNumber_9">
+           <property name="maximumSize">
+            <size>
+             <width>800</width>
+             <height>800</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <pointsize>16</pointsize>
+             <weight>50</weight>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="layoutDirection">
+            <enum>Qt::LeftToRight</enum>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::Box</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <property name="segmentStyle">
+            <enum>QLCDNumber::Flat</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyLabel</class>
+   <extends>QLabel</extends>
+   <header>MyLabel.h</header>
+   <slots>
+    <signal>siguiente()</signal>
+    <signal>next()</signal>
+    <signal>esquerra()</signal>
+    <signal>dreta()</signal>
+    <signal>borrar()</signal>
+    <slot>reset()</slot>
+    <slot>changebola()</slot>
+    <slot>probabilidad()</slot>
+    <slot>changestick()</slot>
+    <slot>jugar()</slot>
+   </slots>
+  </customwidget>
+  <customwidget>
+   <class>MyLCDNumber</class>
+   <extends>QLCDNumber</extends>
+   <header>MyLCDNumber.h</header>
+   <slots>
+    <signal>resetpath()</signal>
+    <slot>reset()</slot>
+    <slot>incrementanumballs()</slot>
+    <slot>incrementabox1()</slot>
+    <slot>incrementabox2()</slot>
+    <slot>incrementabox3()</slot>
+    <slot>incrementabox4()</slot>
+    <slot>incrementabox5()</slot>
+    <slot>incrementabox6()</slot>
+    <slot>incrementabox7()</slot>
+    <slot>incrementabox8()</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>699</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>62</x>
+     <y>585</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>722</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>143</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>747</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>238</x>
+     <y>608</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>763</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>608</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_9</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>687</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>528</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>693</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_2</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>674</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_3</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>701</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>264</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_4</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>114</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_6</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>727</x>
+     <y>29</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>264</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_7</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>760</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_8</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>739</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>29</x>
+     <y>428</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_11</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>738</x>
+     <y>17</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>493</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_15</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>752</x>
+     <y>16</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>493</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>label_14</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>759</x>
+     <y>26</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>493</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_9</receiver>
+   <slot>incrementanumballs()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>15</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>755</x>
+     <y>559</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_2</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>175</x>
+     <y>115</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>138</x>
+     <y>184</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>dreta()</signal>
+   <receiver>label_3</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>116</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>294</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_4</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>79</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>dreta()</signal>
+   <receiver>label_6</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>243</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>300</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_6</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>231</x>
+     <y>206</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>234</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>dreta()</signal>
+   <receiver>label_7</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>345</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_8</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>116</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>77</x>
+     <y>409</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>dreta()</signal>
+   <receiver>label_11</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>94</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>137</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_6</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_11</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>183</x>
+     <y>333</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>169</x>
+     <y>387</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_6</sender>
+   <signal>dreta()</signal>
+   <receiver>label_15</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>240</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>257</x>
+     <y>400</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_7</sender>
+   <signal>esquerra()</signal>
+   <receiver>label_15</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>352</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>279</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_7</sender>
+   <signal>dreta()</signal>
+   <receiver>label_14</receiver>
+   <slot>probabilidad()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>313</x>
+     <y>353</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>344</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>label</receiver>
+   <slot>jugar()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>232</x>
+     <y>21</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>235</x>
+     <y>57</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>borrar()</signal>
+   <receiver>label_2</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>195</x>
+     <y>122</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>163</x>
+     <y>176</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label</sender>
+   <signal>borrar()</signal>
+   <receiver>label_3</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>135</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>174</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>borrar()</signal>
+   <receiver>label_4</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>248</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>101</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_2</sender>
+   <signal>borrar()</signal>
+   <receiver>label_6</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>176</x>
+     <y>250</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>176</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>borrar()</signal>
+   <receiver>label_6</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>212</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>283</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_3</sender>
+   <signal>borrar()</signal>
+   <receiver>label_7</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>270</x>
+     <y>246</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>287</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>borrar()</signal>
+   <receiver>label_8</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>368</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>81</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_4</sender>
+   <signal>borrar()</signal>
+   <receiver>label_11</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>118</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>136</x>
+     <y>411</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_7</sender>
+   <signal>borrar()</signal>
+   <receiver>label_14</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>301</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_6</sender>
+   <signal>borrar()</signal>
+   <receiver>label_15</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>221</x>
+     <y>356</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>232</x>
+     <y>398</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>lcdNumber_6</receiver>
+   <slot>reset()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>644</x>
+     <y>27</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>381</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_8</sender>
+   <signal>esquerra()</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>incrementabox1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>453</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_8</sender>
+   <signal>dreta()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>incrementabox2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>473</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>528</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_11</sender>
+   <signal>esquerra()</signal>
+   <receiver>lcdNumber_2</receiver>
+   <slot>incrementabox2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>460</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>125</x>
+     <y>521</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_11</sender>
+   <signal>dreta()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>incrementabox3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>178</x>
+     <y>466</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>524</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_15</sender>
+   <signal>esquerra()</signal>
+   <receiver>lcdNumber_3</receiver>
+   <slot>incrementabox3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>243</x>
+     <y>465</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>227</x>
+     <y>518</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_15</sender>
+   <signal>dreta()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>incrementabox4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>290</x>
+     <y>466</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>529</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_14</sender>
+   <signal>esquerra()</signal>
+   <receiver>lcdNumber_4</receiver>
+   <slot>incrementabox4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>327</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>298</x>
+     <y>521</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>label_14</sender>
+   <signal>dreta()</signal>
+   <receiver>lcdNumber_6</receiver>
+   <slot>incrementabox5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>379</x>
+     <y>457</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>378</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
